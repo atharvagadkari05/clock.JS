@@ -1,10 +1,45 @@
 #clockcontainer{
+    position: relative;
     width: 40vw;
     height: 40vw;
-  border: 2px solid red;
     background: url(clock.jfif) no-repeat;
     background-size: 100%;
     margin: auto;
 
     
 }
+#hour ,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+   transform-origin: bottom;
+}
+#hour{
+    
+    width: 1.5%;
+    height: 19%;
+    left: 48.25%;
+    top: 31%;
+   
+}
+
+#minute{
+    
+    width: 1.5%;
+    height: 35%;
+    left: 48.25%;
+    top: 15%;
+    opacity: 0.8;
+    
+}
+    
+
+
+#second{
+    width: 1.5%;
+    height: 38%;
+    left: 48.25%;
+    top: 12%;
+    opacity: 0.7;
+}
+    
